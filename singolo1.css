@@ -8,8 +8,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    height: 89px;
-    background-color: black;
+    height: 88px;
+    background-color: #2d303a;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -79,7 +79,7 @@ header {
 
 .slider {
     max-width: 1020px;
-    height: 600px;
+    height: 585px;
     display: flex;    
     flex-wrap:nowrap;
     align-items: center;
@@ -89,7 +89,7 @@ header {
 }
 
 .slider img {
-    margin-top:-13px; /* ради пиксельперфекта поднял вверх изображения */
+    margin-top: 2px; /* ради пиксельперфекта опустил изображения */
 }
 .verticaliphone{
     margin-right: 20px;
@@ -100,6 +100,12 @@ header {
 }
 .slider .right {
     transform: rotate(180deg);
-    margin-right: 42px;
+    margin-right: 40px;
+}
+.slider-bottom {
+    max-width: 1020px;
+    height: 15px;
+    background-color: #ea676b;
+    margin: 0 auto;
 }
 
