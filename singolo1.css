@@ -76,3 +76,30 @@ header {
     background-color: #323746;
     margin: 0 auto;
 }
+
+.slider {
+    max-width: 1020px;
+    height: 600px;
+    display: flex;    
+    flex-wrap:nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #f06c64;
+}
+
+.slider img {
+    margin-top:-13px; /* ради пиксельперфекта поднял вверх изображения */
+}
+.verticaliphone{
+    margin-right: 20px;
+}
+.slider .left {
+    margin-left: 42px;
+
+}
+.slider .right {
+    transform: rotate(180deg);
+    margin-right: 42px;
+}
+
