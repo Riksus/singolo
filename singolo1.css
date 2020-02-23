@@ -5,31 +5,26 @@ body {
     font-family: 'Lato';
 }
 header {
-    max-width: 1020px;
     display: flex;
     justify-content: space-between;
     align-content: center;
     height: 88px;
     background-color: #2d303a;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
     text-transform: uppercase;
-    
 }
 
 .logo {
     display: flex;
     height: 100%;
     align-items: center;
-    margin-left: 40px;
-    font-size: 24.2902px;
-    line-height: 6px;
     color: #FFFFFF;
 }
 
 .logo h1 {
-    font-size: 24.2902px;
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 6px;
 }
 
 .logo span {
@@ -37,26 +32,25 @@ header {
 }
 
 .menu {
-    margin-right: 28px;
+    margin-right: 27px;
     padding-left: 0px;
-    margin-top: 4px;
+    margin-top: 5px;
     height: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
     color: white;
     font-size: 11px;
-
+    font-weight: 400;
 }
 
 .menu li {
     padding-right: 13px;
     list-style-type: none;
-}
-.menu li  {
     color:white;
-    font-size:11.6593px;
+    font-size: 12px;
     line-height: 6px;
+    letter-spacing: -0.2px; 
 }
 
 .menu li:not(.home):before  {
@@ -69,6 +63,7 @@ header {
 .menu li:hover{
     cursor: pointer;
     color:#F06C64;
+    margin-top: 2px;
 }
 
 .header-bottom {
@@ -92,8 +87,9 @@ header {
 .slider img {
     margin-top: 2px; /* ради пиксельперфекта опустил изображения */
 }
-.verticaliphone{
+.verticaliphone {
     margin-right: 20px;
+    padding-top: 2px;
 }
 .slider .left {
     margin-left: 42px;
@@ -135,7 +131,7 @@ header {
 .featblock {
     display: grid;
     grid-template-columns: 320px 320px 320px;
-    grid-template-rows: 123px 123px 123px;
+    grid-template-rows: 123px 123px;
 }
 .feat {
     display: flex;
