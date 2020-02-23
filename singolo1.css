@@ -139,17 +139,15 @@ header {
 .featblock {
     margin-bottom: 64px;
     display: grid;
-    grid-template-columns: 320px 320px 320px;
+    grid-template-columns: 320px 320px 300px;
     grid-template-rows: 123px 123px;
 }
 .feat {
     display: flex;
     align-items: center;
-    padding-right: 10px;
 }
 .feat .text {
     padding-left: 20px;
-    padding-right: 10px;
 }
 .feat img {
     align-self:start;
@@ -168,12 +166,13 @@ header {
 }
 
 .feat p {
+    width: 220px;
     margin-top: 10px;
     font-size: 12px;
     line-height: 21px;
     color: #767e9e;
     font-weight: 400;
-    letter-spacing: 0.08px;
     text-align: justify;						 
-	text-align-last: left;   
+    text-align-last: left;
+    letter-spacing: -0.1px;  
 }
