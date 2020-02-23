@@ -99,6 +99,12 @@ header {
     transform: rotate(180deg);
     margin-right: 40px;
 }
+
+.right:hover, .left:hover {
+    cursor: pointer;
+    filter: saturate(0);
+}
+
 .slider-bottom {
     max-width: 1020px;
     height: 15px;
