@@ -1,7 +1,8 @@
 body {
     max-width: 1020px ;
-    min-width: 600px ;
+    min-width: 900px ;
     margin: 0 auto;
+    font-family: 'Lato';
 }
 header {
     max-width: 1020px;
@@ -108,4 +109,65 @@ header {
     background-color: #ea676b;
     margin: 0 auto;
 }
+.our-services {
+    max-width: 1020px;
+    margin-left: 40px;
+    margin-top: 68px;
+    margin-right: 40px;
+}
+.our-services h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    margin-bottom: 27px;
+}
 
+.our-services .description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.2px; 
+}
+
+.featblock {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 123px 123px 123px;
+}
+.feat {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.feat .text {
+    padding-left: 20px;
+    padding-top: 17px;
+    padding-right: 10px;
+}
+.feat img {
+    align-self:start;
+    padding-top: 30px;
+    padding-left: 1px;
+
+}
+
+.feat h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.feat p {
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    text-align: justify;						 
+	text-align-last: left;   
+}
