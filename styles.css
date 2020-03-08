@@ -458,6 +458,14 @@ footer {
     align-items: center;
 }
 
+footer p {
+    margin-top: 14px;
+    font-size: 12px;
+    line-height: 6px;
+    color: #666d89;
+    font-weight: 400;
+}
+
 .sociallinks img{
-padding-left: 5px;
+    padding-left: 5px;
 }
