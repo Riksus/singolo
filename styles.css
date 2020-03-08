@@ -135,7 +135,8 @@ header {
     color: #767e9e;
     font-weight: 300;
     text-align: left;
-    letter-spacing: 0.2px; 
+    letter-spacing: 0.2px;
+    
 }
 
 .featblock {
@@ -159,7 +160,7 @@ header {
 }
 
 .feat h3 {
-    padding-top: 16px;
+    padding-top: 14px;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
@@ -168,6 +169,7 @@ header {
 }
 
 .feat p {
+    height: 60px;
     width: 220px;
     margin-top: 10px;
     font-size: 12px;
@@ -176,7 +178,9 @@ header {
     font-weight: 400;
     text-align: justify;						 
     text-align-last: left;
-    letter-spacing: -0.1px;  
+    letter-spacing: -0.1px;
+    overflow: hidden; 
+    text-overflow: clip;  
 }
 
 /* Styles for portfolio*/
@@ -213,6 +217,10 @@ header {
     font-weight: 400;
     text-align:center;
     white-space:nowrap;
+}
+
+.portfolio button:hover {
+    width: 120px;
 }
 .all {
     width: 29px;
@@ -316,6 +324,8 @@ button:hover{
     margin-bottom: 0px;
     letter-spacing: -0.2px;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
 }
 .people p {
     width: 300px;
@@ -369,12 +379,12 @@ button:hover{
     margin-top: 44px;
     display: flex;
 }
-.form {
+form {
     width: 619px;
     display: flex;
     flex-direction: column;
 }
-.form input, .details{
+form input, .details{
     background-color: #d6564f;
     padding: 0;
     border: 0;
@@ -383,7 +393,7 @@ button:hover{
     padding-left: 15px;
     
 }
-.form input::placeholder, .form .details::placeholder {
+form input::placeholder, .form .details::placeholder {
     font-size: 12px;
     margin: 0;
     padding: 0px;
@@ -391,15 +401,15 @@ button:hover{
     color: #f48c8f;
     font-weight: 400;
   }
-  .form .details::placeholder {
-      padding-top: 6px;
-  }
+form .details::placeholder {
+    padding-top: 6px;
+}
 
-.form .details {
+form .details {
     height: 202px;
     resize: none;
 } 
-.form input:nth-child(-n+3) {
+form input:nth-child(-n+3) {
     height: 38px;
 }
 
@@ -429,7 +439,7 @@ button:hover{
     margin-top: 19px;
     display: grid;
     grid-row: 12px, 12px, 12px ;
-    grid-column: 56px , 140px;
+    grid-column: 56px , 150px;
     align-items: center;
     gap: 1px;
 }
@@ -456,6 +466,7 @@ button:hover{
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+    text-decoration: none;
 }
 
 footer {
